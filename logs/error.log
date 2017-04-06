@@ -1,0 +1,645 @@
+2017-04-05 11:14:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/img/favicon.ico
+Referer URL: http://localhost/landlord/
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 11:31:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 11:43:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/img/favicon.ico
+Referer URL: http://localhost/landlord/
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 12:05:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Posts could not be found.
+Exception Attributes: array (
+  'class' => 'Posts',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /landlord/admin/posts
+Referer URL: http://localhost/landlord/admin/users
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 13:24:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/img/header-bg1.png
+Referer URL: http://localhost/landlord/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 14:52:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Posts could not be found.
+Exception Attributes: array (
+  'class' => 'Posts',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /landlord/admin/posts
+Referer URL: http://localhost/landlord/admin/users
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 15:42:27 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\l...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\App.php(152): class_exists('App\\Controller\\...')
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Adm...', 'App')
+#5 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(91): Cake\Core\App::className('Dashboard', 'Controller/Admi...', 'Controller')
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#8 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#10 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#11 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#12 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2017-04-05 15:42:59 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 37]
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
+[main] - [internal], line ??
+
+
+
+2017-04-05 15:42:59 Warning: Headers already sent in C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php:37
+2017-04-05 15:42:59 Error: [Cake\Error\FatalErrorException] Class 'AppHelper' not found
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp64\\www\\l...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-04-05 15:44:28 Error: [Cake\View\Exception\MissingHelperException] Helper class AppHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AppHelper',
+  'plugin' => NULL,
+)
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('App', NULL)
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1039): Cake\Core\ObjectRegistry->load('App', Array)
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(938): Cake\View\View->loadHelper('App', Array)
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(345): Cake\View\View->loadHelpers()
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\ViewBuilder.php(363): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager))
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Controller\Controller.php(616): Cake\Controller\Controller->createView()
+#7 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#8 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\DashboardController))
+#9 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2017-04-05 15:45:15 Error: Fatal Error (1): Class 'Helper' not found in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 37]
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
+[main] - [internal], line ??
+
+
+
+2017-04-05 15:45:15 Warning: Headers already sent in C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php:37
+2017-04-05 15:45:15 Error: [Cake\Error\FatalErrorException] Class 'Helper' not found
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Helper' ...', 'C:\\wamp64\\www\\l...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-04-05 15:45:41 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 37]
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
+[main] - [internal], line ??
+
+
+
+2017-04-05 15:45:41 Warning: Headers already sent in C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php:37
+2017-04-05 15:45:41 Error: [Cake\Error\FatalErrorException] Class 'AppHelper' not found
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp64\\www\\l...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-04-05 15:46:59 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 37]
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
+[main] - [internal], line ??
+
+
+
+2017-04-05 15:46:59 Warning: Headers already sent in C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php:37
+2017-04-05 15:46:59 Error: [Cake\Error\FatalErrorException] Class 'AppHelper' not found
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp64\\www\\l...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-04-05 15:47:18 Error: [Error] Class 'App' not found
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\composer\ClassLoader.php(444): include()
+#1 C:\wamp64\www\landlord\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\l...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\View\\Helper...')
+#3 [internal function]: spl_autoload_call('App\\View\\Helper...')
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\App.php(152): class_exists('App\\View\\Helper...')
+#5 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\App.php(64): Cake\Core\App::_classExistsInBase('\\View\\Helper\\Ap...', 'App')
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\HelperRegistry.php(110): Cake\Core\App::className('App', 'View/Helper', 'Helper')
+#7 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(88): Cake\View\HelperRegistry->_resolveClassName('App')
+#8 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1039): Cake\Core\ObjectRegistry->load('App', Array)
+#9 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(938): Cake\View\View->loadHelper('App', Array)
+#10 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(345): Cake\View\View->loadHelpers()
+#11 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\ViewBuilder.php(363): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#12 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager))
+#13 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Controller\Controller.php(616): Cake\Controller\Controller->createView()
+#14 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#15 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\DashboardController))
+#16 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2017-04-05 15:48:18 Error: [TypeError] Argument 2 passed to Cake\View\Helper\HtmlHelper::script() must be of the type array, boolean given, called in C:\wamp64\www\landlord\src\Template\Element\admin\footer.ctp on line 4
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\src\Template\Element\admin\footer.ctp(4): Cake\View\Helper\HtmlHelper->script('http://maps.goo...', false)
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1350): Cake\View\View->_render('C:\\wamp64\\www\\l...', Array)
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(493): Cake\View\View->_renderElement('C:\\wamp64\\www\\l...', Array, Array)
+#5 C:\wamp64\www\landlord\src\Template\Layout\admin.ctp(63): Cake\View\View->element('admin/footer')
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
+#7 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
+#8 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(635): Cake\View\View->_render('C:\\wamp64\\www\\l...')
+#9 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(593): Cake\View\View->renderLayout('', 'admin')
+#10 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#11 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#12 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\DashboardController))
+#13 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2017-04-05 15:50:28 Error: [TypeError] Argument 2 passed to Cake\View\Helper\HtmlHelper::script() must be of the type array, boolean given, called in C:\wamp64\www\landlord\src\Template\Element\admin\footer.ctp on line 4
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\src\Template\Element\admin\footer.ctp(4): Cake\View\Helper\HtmlHelper->script('http://maps.goo...', false)
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1350): Cake\View\View->_render('C:\\wamp64\\www\\l...', Array)
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(493): Cake\View\View->_renderElement('C:\\wamp64\\www\\l...', Array, Array)
+#5 C:\wamp64\www\landlord\src\Template\Layout\admin.ctp(63): Cake\View\View->element('admin/footer')
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
+#7 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
+#8 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(635): Cake\View\View->_render('C:\\wamp64\\www\\l...')
+#9 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(593): Cake\View\View->renderLayout('', 'admin')
+#10 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#11 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#12 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\DashboardController))
+#13 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2017-04-05 15:52:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 15:55:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 15:56:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:00:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class IMAGESURL could not be found.
+Exception Attributes: array (
+  'class' => 'IMAGESURL',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/IMAGES_URL/img/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:04:42 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/IMAGES_URL//img/home.png" could not be found.
+Exception Attributes: array (
+  'url' => '/IMAGES_URL//img/home.png',
+)
+Request URL: /landlord/IMAGES_URL//img/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Router.php(343): Cake\Routing\RouteCollection->parse('/IMAGES_URL//im...')
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Filter\RoutingFilter.php(55): Cake\Routing\Router::parse('/IMAGES_URL//im...')
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2017-04-05 16:07:22 Error: [ParseError] syntax error, unexpected '<'
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\DashboardController))
+#5 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2017-04-05 16:07:46 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(896): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp64\www\landlord\src\Template\Admin\Dashboard\index.ctp(29): Cake\View\View->__get('webroot')
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
+#5 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\l...')
+#7 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#9 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\DashboardController))
+#10 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2017-04-05 16:20:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class IMAGESURL could not be found.
+Exception Attributes: array (
+  'class' => 'IMAGESURL',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/IMAGES_URL/WWW_ROOT%20.%20img/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:20:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class IMAGESURL could not be found.
+Exception Attributes: array (
+  'class' => 'IMAGESURL',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/IMAGES_URL/C:wamp64wwwlandlordwebrootimg/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:21:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:22:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:23:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class IMAGESURL could not be found.
+Exception Attributes: array (
+  'class' => 'IMAGESURL',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/IMAGES_URL/C:wamp64wwwlandlordsrcimg/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:23:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:23:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class IMAGESURL could not be found.
+Exception Attributes: array (
+  'class' => 'IMAGESURL',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/IMAGES_URL/C:wamp64wwwlandlordimg/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:24:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:24:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class IMAGESURL could not be found.
+Exception Attributes: array (
+  'class' => 'IMAGESURL',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/IMAGES_URL/img/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:27:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:27:38 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/IMAGES_URL//landlord/img/home.png" could not be found.
+Exception Attributes: array (
+  'url' => '/IMAGES_URL//landlord/img/home.png',
+)
+Request URL: /landlord/IMAGES_URL//landlord/img/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Router.php(343): Cake\Routing\RouteCollection->parse('/IMAGES_URL//la...')
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Filter\RoutingFilter.php(55): Cake\Routing\Router::parse('/IMAGES_URL//la...')
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2017-04-05 16:29:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:29:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class IMAGESURL could not be found.
+Exception Attributes: array (
+  'class' => 'IMAGESURL',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/IMAGES_URL/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:29:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:29:50 Warning: Headers already sent in C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2017-04-05 16:29:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class IMAGESURL could not be found.
+Exception Attributes: array (
+  'class' => 'IMAGESURL',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/IMAGES_URL/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:30:33 Error: [Error] Call to a member function image() on null
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\src\Template\Admin\Dashboard\index.ctp(41): App\View\Helper\GoogleMapHelper->map(Array)
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\l...')
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#5 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\DashboardController))
+#7 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2017-04-05 16:36:10 Error: [Error] Call to a member function image() on null
+Request URL: /landlord/admin
+Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Stack Trace:
+#0 C:\wamp64\www\landlord\src\Template\Admin\Dashboard\index.ctp(41): App\View\Helper\GoogleMapHelper->map(Array)
+#1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
+#3 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\l...')
+#4 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#5 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#6 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\DashboardController))
+#7 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2017-04-05 16:37:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home.png could not be found.
+Exception Attributes: array (
+  'class' => 'Home.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/home.png
+Referer URL: http://localhost/landlord/admin
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-05 16:38:56 Warning: Headers already sent in C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2017-04-05 16:41:45 Warning: Headers already sent in C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2017-04-05 16:47:18 Warning: Headers already sent in C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2017-04-05 16:47:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/img/favicon.ico
+Referer URL: http://localhost/landlord/admin/login
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
