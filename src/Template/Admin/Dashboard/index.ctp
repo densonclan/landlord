@@ -22,7 +22,7 @@
     'height' => '500px',
     'style' => '',
     'zoom' => 7,
-    'type' => 'HYBRID',
+    'type' => 'ROADMAP',
     'custom' => null,
     'localize' => true,
     'latitude' => 40.69847032728747,
@@ -31,7 +31,6 @@
     'marker' => true,
     'markerTitle' => 'This is my position',
     'markerIcon' => $home,
-    'markerShadow' => 'http://google-maps-icons.googlecode.com/files/shadow.png',
     'infoWindow' => true,
     'windowText' => 'My Position',
     'draggableMarker' => false

@@ -24,7 +24,7 @@ class RolesController extends AppController
     }
 
    // VIEW
-    public function detalhes($id = null)
+    public function details($id = null)
     {
         $role = $this->Roles->get($id, [
             'contain' => []
@@ -36,7 +36,7 @@ class RolesController extends AppController
     }
 
     // ADD
-    public function adicionar()
+    public function add()
     {
         $this->set('title_for_layout', 'Add Profile');
         $role = $this->Roles->newEntity();
@@ -55,7 +55,7 @@ class RolesController extends AppController
     }
 
     // EDIT
-    public function editar($id = null)
+    public function edit($id = null)
     {
         $this->set('title_for_layout', 'Profile Editor');
         $role = $this->Roles->get($id, [

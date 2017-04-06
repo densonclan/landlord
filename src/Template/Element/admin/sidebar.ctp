@@ -22,7 +22,7 @@
     </li>
     <!-- PERFIL(roles) -->
     <li>
-      <a href="<?= Configure::read('ADMIN_URL');?>/perfil"><i class="fa fa-unlock-alt"></i> <span>Profile</span></a>
+      <a href="<?= Configure::read('ADMIN_URL');?>/profile"><i class="fa fa-unlock-alt"></i> <span>Profile</span></a>
     </li>
   </ul><!-- /.sidebar-menu -->
 </section><!-- /.sidebar -->

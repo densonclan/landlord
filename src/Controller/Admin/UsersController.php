@@ -53,7 +53,7 @@ class UsersController extends AppController
     }
 
 
-    public function detalhes($id)
+    public function details($id)
     {
         $this->set('title_for_layout', 'User Details');
         $user = $this->Users->get($id);
@@ -61,7 +61,7 @@ class UsersController extends AppController
     }
 
     // Adicionar
-    public function adicionar()
+    public function add()
     {
         $this->set('title_for_layout', 'Add User');
 
@@ -88,7 +88,7 @@ class UsersController extends AppController
     }
 
     // Editar
-    public function editar($id = null)
+    public function edit($id = null)
     {
         $this->set('title_for_layout', 'Edit User');
         

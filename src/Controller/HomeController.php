@@ -20,7 +20,7 @@ class HomeController extends AppController
 
     public function beforeFilter(Event $event)
     {
-        $this->Auth->allow(['index', 'detalhes']);
+        $this->Auth->allow(['index', 'details']);
     }
 
 

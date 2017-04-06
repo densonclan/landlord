@@ -6,7 +6,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="<?= Configure::read('ADMIN_URL');?>"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="<?= Configure::read('ADMIN_URL');?>/perfil"><i class="fa fa-dashboard"></i> Profile</a></li>
+        <li><a href="<?= Configure::read('ADMIN_URL');?>/profile"><i class="fa fa-dashboard"></i> Profile</a></li>
         <li class="active">Profile Details</li>
     </ol>
 </section>
@@ -25,12 +25,12 @@
 
                     <div class="btn-group">
                         <ul class="dropdown-menu" role="menu">
-                            <li><?= $this->Html->link(__('Edit'), ['action' => 'editar', $role->id]) ?> </li>
+                            <li><?= $this->Html->link(__('Edit'), ['action' => 'edit', $role->id]) ?> </li>
                             <li><?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $role->id], ['confirm' => __('Are you sure you want to delete # {0}?', $role->id)]) ?> </li>
                         </ul>
                     </div><!-- btn-group-->
-                    <a href="<?= Configure::read('ADMIN_URL');?>/perfil" class="btn btn-app btn-flat"><i class="fa fa-folder"></i> Lists</a>
-                    <a href="<?= Configure::read('ADMIN_URL');?>/perfil/adicionar" class="btn btn-app btn-flat"><i class="fa fa-plus-circle"></i> Add</a>
+                    <a href="<?= Configure::read('ADMIN_URL');?>/profile" class="btn btn-app btn-flat"><i class="fa fa-folder"></i> Lists</a>
+                    <a href="<?= Configure::read('ADMIN_URL');?>/profile/add" class="btn btn-app btn-flat"><i class="fa fa-plus-circle"></i> Add</a>
                 </div><!-- /.box-body -->
             </div><!-- /.box /.box-info -->
         </div><!-- col-md-3 -->

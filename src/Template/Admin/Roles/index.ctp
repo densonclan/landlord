@@ -41,10 +41,10 @@
                         <td><?= $this->Time->format($role->created,'dd-MM-YYYY',null);?></td>
                         <td><?= $this->Time->format($role->modified,'dd-MM-YYYY',null);?></td>
                         <td class="text-center">
-                            <a href="<?= Configure::read('ADMIN_URL'); ?>/roles/detalhes/<?= $role->id; ?>" class="btn btn-success btn-flat btn-sm">
+                            <a href="<?= Configure::read('ADMIN_URL'); ?>/roles/details/<?= $role->id; ?>" class="btn btn-success btn-flat btn-sm">
                                 <i class="fa fa-eye fa-lg"></i>
                             </a>
-                            <a href="<?= Configure::read('ADMIN_URL'); ?>/perfil/editar/<?= $role->id; ?>" class="btn btn-info btn-flat btn-sm">
+                            <a href="<?= Configure::read('ADMIN_URL'); ?>/profile/edit/<?= $role->id; ?>" class="btn btn-info btn-flat btn-sm">
                                 <i class="fa fa-pencil fa-lg"></i>
                             </a>
                             <?php
@@ -75,7 +75,7 @@
 
                 <div class="box-body">
                     <a href="<?= Configure::read('ADMIN_URL');?>/users" class="btn btn-app btn-flat"><i class="fa fa-folder"></i> Users</a>
-                    <a href="<?= Configure::read('ADMIN_URL');?>/perfil/adicionar" class="btn btn-app btn-flat"><i class="fa fa-plus-circle"></i> Actions</a>
+                    <a href="<?= Configure::read('ADMIN_URL');?>/profile/add" class="btn btn-app btn-flat"><i class="fa fa-plus-circle"></i> Actions</a>
 
                 </div><!-- /.box-body -->
             </div><!-- /.box /.box-info -->
@@ -106,7 +106,7 @@
 </div>
 <script type="text/javascript">
     $(".delete-btn").click(function(){
-        $("#ajax_button").html("<a href='/admin/perfil/delete/"+ $(this).attr("data-id")+"' class='btn btn-danger btn-flat btn-lg'>Confirm</a>");
+        $("#ajax_button").html("<a href='/admin/profile/delete/"+ $(this).attr("data-id")+"' class='btn btn-danger btn-flat btn-lg'>Confirm</a>");
         $("#trigger").click();
     });
 </script>

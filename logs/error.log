@@ -83,7 +83,7 @@ Stack Trace:
 
 2017-04-05 15:42:27 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\l...')
 #1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
@@ -103,7 +103,7 @@ Stack Trace:
 
 2017-04-05 15:42:59 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 37]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
 Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
@@ -114,7 +114,7 @@ Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHa
 2017-04-05 15:42:59 Warning: Headers already sent in C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php:37
 2017-04-05 15:42:59 Error: [Cake\Error\FatalErrorException] Class 'AppHelper' not found
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp64\\www\\l...', 37)
 #1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
@@ -127,7 +127,7 @@ Exception Attributes: array (
   'plugin' => NULL,
 )
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('App', NULL)
 #1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1039): Cake\Core\ObjectRegistry->load('App', Array)
@@ -144,7 +144,7 @@ Stack Trace:
 
 2017-04-05 15:45:15 Error: Fatal Error (1): Class 'Helper' not found in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 37]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
 Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
@@ -155,7 +155,7 @@ Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHa
 2017-04-05 15:45:15 Warning: Headers already sent in C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php:37
 2017-04-05 15:45:15 Error: [Cake\Error\FatalErrorException] Class 'Helper' not found
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Helper' ...', 'C:\\wamp64\\www\\l...', 37)
 #1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
@@ -164,7 +164,7 @@ Stack Trace:
 
 2017-04-05 15:45:41 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 37]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
 Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
@@ -175,7 +175,7 @@ Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHa
 2017-04-05 15:45:41 Warning: Headers already sent in C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php:37
 2017-04-05 15:45:41 Error: [Cake\Error\FatalErrorException] Class 'AppHelper' not found
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp64\\www\\l...', 37)
 #1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
@@ -184,7 +184,7 @@ Stack Trace:
 
 2017-04-05 15:46:59 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 37]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
 Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
@@ -195,7 +195,7 @@ Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHa
 2017-04-05 15:46:59 Warning: Headers already sent in C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php:37
 2017-04-05 15:46:59 Error: [Cake\Error\FatalErrorException] Class 'AppHelper' not found
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp64\\www\\l...', 37)
 #1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
@@ -204,7 +204,7 @@ Stack Trace:
 
 2017-04-05 15:47:18 Error: [Error] Class 'App' not found
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\composer\ClassLoader.php(444): include()
 #1 C:\wamp64\www\landlord\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\l...')
@@ -228,7 +228,7 @@ Stack Trace:
 
 2017-04-05 15:48:18 Error: [TypeError] Argument 2 passed to Cake\View\Helper\HtmlHelper::script() must be of the type array, boolean given, called in C:\wamp64\www\landlord\src\Template\Element\admin\footer.ctp on line 4
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\src\Template\Element\admin\footer.ctp(4): Cake\View\Helper\HtmlHelper->script('http://maps.goo...', false)
 #1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
@@ -249,7 +249,7 @@ Stack Trace:
 
 2017-04-05 15:50:28 Error: [TypeError] Argument 2 passed to Cake\View\Helper\HtmlHelper::script() must be of the type array, boolean given, called in C:\wamp64\www\landlord\src\Template\Element\admin\footer.ctp on line 4
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\src\Template\Element\admin\footer.ctp(4): Cake\View\Helper\HtmlHelper->script('http://maps.goo...', false)
 #1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
@@ -341,7 +341,7 @@ Stack Trace:
 
 2017-04-05 16:07:22 Error: [ParseError] syntax error, unexpected '<'
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\l...', Array)
 #1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\l...')
@@ -358,7 +358,7 @@ Exception Attributes: array (
   'plugin' => NULL,
 )
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
 #1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('webroot')
@@ -584,7 +584,7 @@ Stack Trace:
 
 2017-04-05 16:30:33 Error: [Error] Call to a member function image() on null
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\src\Template\Admin\Dashboard\index.ctp(41): App\View\Helper\GoogleMapHelper->map(Array)
 #1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
@@ -599,7 +599,7 @@ Stack Trace:
 
 2017-04-05 16:36:10 Error: [Error] Call to a member function image() on null
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Stack Trace:
 #0 C:\wamp64\www\landlord\src\Template\Admin\Dashboard\index.ctp(41): App\View\Helper\GoogleMapHelper->map(Array)
 #1 C:\wamp64\www\landlord\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\l...')
@@ -638,6 +638,33 @@ Exception Attributes: array (
 )
 Request URL: /landlord/img/favicon.ico
 Referer URL: http://localhost/landlord/admin/login
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-06 09:54:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/img/favicon.ico
+Referer URL: http://localhost/landlord/
+Stack Trace:
+#0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-06 10:46:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /landlord/css/bootstrap.min.css.map
 Stack Trace:
 #0 C:\wamp64\www\landlord\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
 #1 {main}

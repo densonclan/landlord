@@ -48,10 +48,10 @@
                                 <td><?= h($user->email) ?></td>
                                 <td><?= $this->Time->format($user->created,'dd-MM-YYYY',null);?></td>
                                 <td class="text-center">
-                                    <a href="<?= Configure::read('ADMIN_URL'); ?>/users/detalhes/<?= $user->id; ?>" class="btn btn-success btn-flat btn-sm">
+                                    <a href="<?= Configure::read('ADMIN_URL'); ?>/users/details/<?= $user->id; ?>" class="btn btn-success btn-flat btn-sm">
 		                                <i class="fa fa-eye fa-lg"></i>
 		                            </a>
-		                            <a href="<?= Configure::read('ADMIN_URL'); ?>/users/editar/<?= $user->id; ?>" class="btn btn-info btn-flat btn-sm">
+		                            <a href="<?= Configure::read('ADMIN_URL'); ?>/users/edit/<?= $user->id; ?>" class="btn btn-info btn-flat btn-sm">
 		                                <i class="fa fa-pencil fa-lg"></i>
 		                            </a>
 		                            <?php
@@ -83,7 +83,7 @@
 
                 <div class="box-body">
                     <a href="<?= Configure::read('ADMIN_URL');?>/posts" class="btn btn-app btn-flat"><i class="fa fa-folder"></i> Posts</a>
-                    <a href="<?= Configure::read('ADMIN_URL');?>/users/adicionar" class="btn btn-app btn-flat"><i class="fa fa-plus-circle"></i> Add</a>
+                    <a href="<?= Configure::read('ADMIN_URL');?>/users/add" class="btn btn-app btn-flat"><i class="fa fa-plus-circle"></i> Add</a>
 
                 </div><!-- /.box-body -->
             </div><!-- /.box /.box-info -->
@@ -98,7 +98,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Deletar Registro</h4>
+                <h4 class="modal-title" id="myModalLabel">Delete Record</h4>
             </div>
             <div class="modal-body">
                 Do you really want to delete this record?

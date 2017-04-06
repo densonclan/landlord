@@ -23,7 +23,7 @@
 
                 <div class="box-body">
                     <a href="<?= Configure::read('ADMIN_URL');?>/users" class="btn btn-app btn-flat"><i class="fa fa-folder"></i> Users</a>
-                    <a href="<?= Configure::read('ADMIN_URL');?>/users/adicionar" class="btn btn-app btn-flat"><i class="fa fa-plus-circle"></i> Add</a>
+                    <a href="<?= Configure::read('ADMIN_URL');?>/users/add" class="btn btn-app btn-flat"><i class="fa fa-plus-circle"></i> Add</a>
                 </div><!-- /.box-body -->
             </div><!-- /.box /.box-info -->
         </div><!-- col-md-3 -->

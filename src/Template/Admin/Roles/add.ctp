@@ -1,12 +1,12 @@
 <section class="content-header">
     <h1>
-        Edit Profile
+        Add Profile
         <small>- <?= Configure::read('APP_NAME'); ?></small>
     </h1>
     <ol class="breadcrumb">
         <li><a href="<?= Configure::read('ADMIN_URL');?>"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="<?= Configure::read('ADMIN_URL');?>/users"><i class="fa fa-folder"></i> Profile</a></li>
-        <li class="active">Profile Editor</li>
+        <li class="active">Add Profile</li>
     </ol>
 </section>
 
@@ -18,14 +18,14 @@
         <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
             <div class="box box-info">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Profile Editor</h3>
+                    <h3 class="box-title">Add Profile</h3>
                 </div><!-- /.box-header -->
 
                 <?= $this->Form->create($role, array('role' => 'form', 'enctype' => 'multipart/form-data')); ?>
                 <div class="box-body">
                     <!-- name -->
 		            <div class="form-group">
-		                <?= $this->Form->input('name', array('class' => 'form-control', 'label' => 'Nome', 'type' => 'text', 'placeholder' => 'Name')); ?>
+		                <?= $this->Form->input('name', array('class' => 'form-control', 'label' => 'Name', 'type' => 'text', 'placeholder' => 'Name')); ?>
 		            </div>
 
 		            <!-- alias -->
@@ -59,8 +59,8 @@
                 </div>
 
                 <div class="box-body">
-                    <a href="<?= Configure::read('ADMIN_URL');?>/perfil" class="btn btn-app btn-flat"><i class="fa fa-folder"></i> List</a>
-                    <a href="<?= Configure::read('ADMIN_URL');?>/perfil" class="btn btn-app bg-maroon btn-flat"><i class="fa fa-exclamation"></i> Cancelar</a>
+                    <a href="<?= Configure::read('ADMIN_URL');?>/users" class="btn btn-app btn-flat"><i class="fa fa-folder"></i> Lists</a>
+                    <a href="<?= Configure::read('ADMIN_URL');?>/users" class="btn btn-app bg-maroon btn-flat"><i class="fa fa-exclamation"></i> Cancel</a>
                 </div><!-- /.box-body -->
             </div><!-- /.box /.box-info -->
         </div><!-- col-md-3 -->

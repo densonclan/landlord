@@ -1,6 +1,6 @@
 2017-04-05 15:48:18 Notice: Notice (8): Undefined variable: map_options in [C:\wamp64\www\landlord\src\Template\Admin\Dashboard\index.ctp, line 37]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 include - APP/Template\Admin\Dashboard\index.ctp, line 37
@@ -16,7 +16,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 15:50:28 Notice: Notice (8): Undefined variable: map_options in [C:\wamp64\www\landlord\src\Template\Admin\Dashboard\index.ctp, line 37]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 include - APP/Template\Admin\Dashboard\index.ctp, line 37
@@ -32,7 +32,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 15:51:24 Notice: Notice (8): Undefined variable: map_options in [C:\wamp64\www\landlord\src\Template\Admin\Dashboard\index.ctp, line 37]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 include - APP/Template\Admin\Dashboard\index.ctp, line 37
@@ -48,7 +48,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:00:11 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -65,7 +65,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:04:41 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -82,7 +82,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:20:04 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -99,7 +99,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:20:19 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -116,7 +116,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:20:55 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -133,7 +133,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:22:59 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -150,7 +150,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:23:50 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -167,7 +167,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:24:13 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -184,7 +184,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:27:36 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -201,7 +201,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:29:04 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
@@ -218,7 +218,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 2017-04-05 16:29:49 Notice: Notice (8): Use of undefined constant IMAGES_URL - assumed 'IMAGES_URL' in [C:\wamp64\www\landlord\src\View\Helper\GoogleMapHelper.php, line 210]
 Request URL: /landlord/admin
-Referer URL: http://localhost/landlord/admin/perfil/editar/1
+Referer URL: http://localhost/landlord/admin/profile/edit/1
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
 App\View\Helper\GoogleMapHelper::map() - APP/View\Helper\GoogleMapHelper.php, line 210
